@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Main {
-
+//Commit para realizar push de un cambio en el nombre del archivo
 	public static void main(String[] args) {
 		Club.agregarSocioFundacional("Pedro",10,LocalDate.of(2024, 2, 21));
 		Club.getSocioFundacionalClub(10).invitarSocio("Ana",2);
