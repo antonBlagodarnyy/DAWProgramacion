@@ -3,7 +3,7 @@ package main;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Iterator;
-
+//To change folder name
 public abstract class Club {
 	//Atributos
 	public static final int CAPACIDAD_RESERVAS = 100;
