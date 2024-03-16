@@ -55,13 +55,13 @@ public class LoginServlet extends HttpServlet {
 		
 			if (daoUsuario.getUsuario(username) instanceof Cliente) {
 				Cliente cliente = (Cliente) daoUsuario.getUsuario(username);
-				if(cliente.getPassword()==password) {
+				if(cliente.getPassword().equals(password)) {
 					encontrado=true;
 				}
 			}
 return encontrado;
 		
-		//TODO incluir logica, para comproba si el username y password coinciden
+		//TODO incluir logica, para comproba si el username y password coinciden DONE
 		//actualmente devuelve siempre true. Por lo que siempre se puede entrar.
 		//Hay que tener en cuenta que no todos los Usuarios, son CLientes. Los Clientes son
 		//los usuario que se pueden logar.

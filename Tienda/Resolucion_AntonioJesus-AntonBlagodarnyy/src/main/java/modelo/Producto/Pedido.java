@@ -57,7 +57,13 @@ public class Pedido {
 	 * @return la fecha de entrega del pedido.
 	 */
 	public LocalDate getFechaEntrega() {
-		return LocalDate.of(2021, 1, 1);//TODO calcular la fecha de entrega en funcion
+		LocalDate fechaEntrega = this.fechaDeCompra;
+		if(this.cliente.isPrime()) 
+			fechaEntrega.plusDays(1);
+			else
+				fechaEntrega.plusDays(15);
+			
+		return fechaEntrega;//TODO calcular la fecha de entrega en funcion DONE
 		// de si el usuario es prime o no, y la fecha de compra. Actualmente la fecha es
 		//siempre la misma.
 	}

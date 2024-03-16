@@ -43,7 +43,7 @@ public class Producto implements IProducto{
 	}
 	
 	public double getPrecioFinal() {
-		return this.getPrecioBase()*(1+IVA);//TODO Este metodo debe devolver el precio final del producto, el cual es done
+		return this.getPrecioBase()*(1+IVA);//TODO Este metodo debe devolver el precio final del producto, el cual es DONE
 		//su precio base, mas la suma del porcentaje de IVA.
 	}
 	public int getId() {

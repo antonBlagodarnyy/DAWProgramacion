@@ -13,7 +13,7 @@ public class Usuario {
     }
     
     public String getNombre() {
-        return nombre;//TODO este metodo debe devolver el nombre del usuario done
+        return nombre;//TODO este metodo debe devolver el nombre del usuario DONE
         //y no siempre la misma cadena.
     }
 }

@@ -13,7 +13,7 @@ public class ProductoElectronico extends Producto{
 	
 	/*@Override
 	public double getPrecioFinal() {
-		// TODO Los productos electronicos, tienen un descuento del 20% enMarzo
+		//Los productos electronicos, tienen un descuento del 20% enMarzo
 		//y del 50% en el blackfriday (cuarto viernes de Noviembre)
 		double precioFinal=super.getPrecioFinal();
 		if(LocalDate.now().getMonthValue()==11&&LocalDate.now().getDayOfYear()%6=={
@@ -32,8 +32,6 @@ public class ProductoElectronico extends Producto{
 
 		double precio=0;
 
-		
-
 		if(LocalDate.now().getMonthValue()==3) {
 
 			precio=super.getPrecioFinal()*0.80;
@@ -43,11 +41,7 @@ public class ProductoElectronico extends Producto{
 			precio=super.getPrecioFinal()*0.50;
 
 		}
-
-		
-
-		// TODO Los productos electronicos, tienen un descuento del 20% enMarzo
-
+		// TODO Los productos electronicos, tienen un descuento del 20% enMarzo DONE
 		//y del 50% en el blackfriday (cuarto viernes de Noviembre)
 
 		return precio;

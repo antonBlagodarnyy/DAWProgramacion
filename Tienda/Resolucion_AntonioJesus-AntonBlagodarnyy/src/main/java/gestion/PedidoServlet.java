@@ -51,7 +51,7 @@ public class PedidoServlet extends HttpServlet {
 		return pedido;
 		
 
-		//TODO, actualmente se crea un pedido con los mismo datos. Se debe borrar esta linea
+		//TODO, actualmente se crea un pedido con los mismo datos. Se debe borrar esta linea DONE
 		//y crear un pedido que tenga como producto, el que tiene como id idProducto
 		//y que tenga como fecha de compra la actual, y como cliente
 		//el parametro usuario. Para acceder a la BD utilizar un objeto de DAOProducto.
